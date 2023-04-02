@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;900&family=Ubuntu:wght@300;400;500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -14,19 +10,20 @@ body {
 }
 
 .container {
-  max-width: 1170px;
-  margin: 0px auto;
-  padding-top: 10px;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .info {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.info img {
+.avatar {
   display: block;
-  border-radius: 20px;
+  width: 200px;
+  border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
@@ -37,6 +34,18 @@ body {
 .info-text p {
   font-style: italic;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.info-text h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.info-text h4 {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 table {
@@ -61,8 +70,8 @@ tbody td {
 
 .card {
   border: 1px solid black;
-  padding: 10px 25px;
-  margin-bottom: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
 .card h2 {
