@@ -90,3 +90,18 @@ tbody td {
 .card a {
   color: blue;
 }
+.btn {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+}
+
+.link {
+  color: #000;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.link:last-child {
+  text-decoration: underline;
+}
