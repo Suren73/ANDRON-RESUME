@@ -65,24 +65,17 @@ a:visited {
   margin-bottom: 10px;
 }
 
-table {
-  table-layout: fixed;
+.table {
   width: 100%;
-  /* border-collapse: collapse; */
-  /* border: 3px solid purple; */
 }
 
-thead th {
-  width: calc(100% / 3);
+.table td {
+  padding-bottom: 10px;
 }
 
-th,
-td {
-  padding: 20px;
-}
-
-tbody td {
-  text-align: center;
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
 }
 
 .card {
@@ -92,8 +85,9 @@ tbody td {
   border-radius: 20px;
 }
 .card h2 {
-  /* margin: 0; */
-  /* padding: 5px; */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
 }
 .bg-yellow {
   background: #fff9dc;
@@ -105,8 +99,30 @@ tbody td {
   background: #e5ffe7;
 }
 .card a {
-  color: blue;
+  color: #000;
 }
+.list {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
 .btn {
   background-color: #111;
   color: #fff;
