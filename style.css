@@ -9,6 +9,23 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
 .container {
   max-width: 750px;
   margin: auto;
@@ -93,15 +110,12 @@ tbody td {
 .btn {
   background-color: #111;
   color: #fff;
-  padding: 15px;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
 
-.link {
-  color: #000;
+.btn:hover {
   opacity: 0.8;
-  text-decoration: none;
-}
-
-.link:last-child {
-  text-decoration: underline;
 }
