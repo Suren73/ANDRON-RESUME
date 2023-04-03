@@ -68,6 +68,20 @@ a:visited {
   margin-bottom: 10px;
 }
 
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    /* margin: 0px auto; */
+  }
+  .avatar {
+    margin: 0 auto;
+  }
+  .info-text {
+    margin: 0;
+    text-align: center;
+  }
+}
+
 .table {
   width: 100%;
 }
