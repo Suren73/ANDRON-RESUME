@@ -14,16 +14,16 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: grey;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
 a:active {
   color: blue;
-}
-
-a:visited {
-  color: grey;
 }
 
 .container {
